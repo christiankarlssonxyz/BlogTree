@@ -1,4 +1,5 @@
- languageCode = 'sv-se'
+baseURL = "https://karlsson.xyz"
+languageCode = 'sv-se'
 title = 'Mitt Hugo Tema - BlogTree'
 
 [params]
