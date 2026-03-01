@@ -128,3 +128,27 @@ body {
 .hamburger-menu a:hover {
     color: red;
 }
+
+/* Under konstruktion */
+.coming-soon {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.coming-soon-icon {
+    font-size: 4rem;
+    margin: 1rem 0;
+}
+
+.coming-soon h2 {
+    margin-bottom: 0.5rem;
+}
+
+.coming-soon p {
+    color: #666;
+}
+
+.coming-soon .button {
+    display: inline-block;
+    margin-top: 2rem;
+}
