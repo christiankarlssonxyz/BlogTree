@@ -7,8 +7,26 @@ title = 'Mitt Hugo Tema - BlogTree'
 
 [[params.socialLinks ]]
   name = "GitHub"
-  icon = 'T'
   url = "https://github.com/christiankarlssonxyz"
+
+[[params.socialLinks ]]
+    name = "Facebook"
+    url = "https://github.com/christiankarlssonxyz"
+
+[[params.socialLinks ]]
+    name = "Instagram"
+    url = "https://github.com/christiankarlssonxyz"
+
+[[params.socialLinks ]]
+      name = "Threads"
+      url = "https://github.com/christiankarlssonxyz"
+[[params.socialLinks ]]
+    name = "X"
+    url = "https://github.com/christiankarlssonxyz"
+
+[[params.socialLinks ]]
+      name = "Mastodon"
+      url = "https://github.com/christiankarlssonxyz"
 
 [menus]
   [[menus.main]]

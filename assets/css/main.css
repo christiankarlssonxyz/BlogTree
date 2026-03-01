@@ -35,3 +35,7 @@ body {
     background-color: #000;
     color: #fff;
 }
+.icon-button {
+    width: 20px;
+    height: 20px;
+}

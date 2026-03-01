@@ -5,7 +5,8 @@
 
     <div class="links">
         {{ range .Site.Params.socialLinks }}
-        <a href="{{ .url }}" class="button">{{ .name }}</a>
+        <a href="{{ .url }}" class="icon-button" title="{{ .name }}">
+                {{ partial (printf "icons/%s.svg" (lower .name)) . }}
         {{ end }}
     </div>
 </div>
