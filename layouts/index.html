@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="profile-header">
+    <h1>{{ .Site.Params.author }}</h1>
+    <p>{{ .Site.Params.description }}</p>
+
+    <div class="links">
+        {{ range .Site.Params.socialLinks }}
+        <a href="{{ .url }}" class="button">{{ .name }}</a>
+        {{ end }}
+    </div>
+</div>
+
+<hr />
+
+<section class="posts">
+    <h2>Senaste inläggen</h2>
+    <ul>
+        {{ range (where .Site.RegularPages "Section" "posts") }}
+        <li>
+            <span>{{ .Date.Format "2006-01-02" }}</span>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</section>
+{{ end }}

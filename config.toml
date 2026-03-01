@@ -1,6 +1,14 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-US'
-title = 'My New Hugo Project'
+ languageCode = 'sv-se'
+title = 'Mitt Hugo Tema - BlogTree'
+
+[params]
+  author = "Christian Karlsson"
+  description = "Minimalistisk blogg & länkar"
+
+[[params.socialLinks ]]
+  name = "GitHub"
+  icon = 'T'
+  url = "https://github.com/christiankarlssonxyz"
 
 [menus]
   [[menus.main]]
@@ -21,4 +29,4 @@ title = 'My New Hugo Project'
 [module]
   [module.hugoVersion]
     extended = false
-    min = '0.146.0'
+    min = '0.157.0'
