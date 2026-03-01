@@ -2,45 +2,49 @@
 title = 'Mitt Hugo Tema - BlogTree'
 
 [params]
-  author = "Christian Karlsson"
+  author = "John Johnsson"
   description = "Minimalistisk blogg & länkar"
 
 [[params.socialLinks ]]
   name = "GitHub"
-  url = "https://github.com/christiankarlssonxyz"
+  url = "https://github.com"
 
 [[params.socialLinks ]]
     name = "Facebook"
-    url = "https://github.com/christiankarlssonxyz"
+    url = "https://facebook.com"
 
 [[params.socialLinks ]]
     name = "Instagram"
-    url = "https://github.com/christiankarlssonxyz"
+    url = "https://instagram.com"
 
 [[params.socialLinks ]]
       name = "Threads"
       url = "https://github.com/christiankarlssonxyz"
 [[params.socialLinks ]]
     name = "X"
-    url = "https://github.com/christiankarlssonxyz"
+    url = "https://x.com"
 
 [[params.socialLinks ]]
       name = "Mastodon"
-      url = "https://github.com/christiankarlssonxyz"
+      url = "https://mastodon.social"
+
+  [[params.socialLinks ]]
+            name = "Wordpress"
+            url = "https://www.wordpress.com"
 
 [menus]
   [[menus.main]]
-    name = 'Home'
+    name = 'Startsida'
     pageRef = '/'
     weight = 10
 
   [[menus.main]]
-    name = 'Posts'
+    name = 'Artiklar'
     pageRef = '/posts'
     weight = 20
 
   [[menus.main]]
-    name = 'Tags'
+    name = 'Taggar'
     pageRef = '/tags'
     weight = 30
 

@@ -6,6 +6,35 @@
         <title>{{ .Title }}</title>
     </head>
     <body>
+        <button
+            class="hamburger-btn"
+            onclick="
+                document.querySelector('.hamburger-menu').classList.add('open');
+                this.classList.add('hidden');
+            "
+        >
+            &#9776;
+        </button>
+        <nav class="hamburger-menu">
+            <button
+                class="hamburger-close"
+                onclick="
+                    document
+                        .querySelector('.hamburger-menu')
+                        .classList.remove('open');
+                    document
+                        .querySelector('.hamburger-btn')
+                        .classList.remove('hidden');
+                "
+            >
+                &times;
+            </button>
+            <ul>
+                {{ range site.Menus.main }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+            </ul>
+        </nav>
         <main>{{ block "main" . }}{{ end }}</main>
     </body>
 </html>
