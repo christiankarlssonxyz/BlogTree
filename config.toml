@@ -1,4 +1,4 @@
-baseURL = "https://karlsson.xyz"
+baseURL = "/"
 languageCode = 'sv-se'
 title = 'Mitt Hugo Tema - BlogTree'
 
