@@ -1,6 +1,7 @@
 baseURL = "https://karlsson.xyz/"
 languageCode = 'sv-se'
-title = 'Mitt Hugo Tema - BlogTree'
+title = 'Christian Karlsson'
+theme = "BlogTree"
 
 [params]
   author = "John Johnsson"
